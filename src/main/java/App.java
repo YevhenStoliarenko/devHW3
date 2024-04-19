@@ -3,6 +3,7 @@ public class App {
 
         SumCalculator sumCalculator = new SumCalculator();
         System.out.println("result " + sumCalculator.sum(3));
+        System.out.println("result " + sumCalculator.sum(3));
 
 
     }

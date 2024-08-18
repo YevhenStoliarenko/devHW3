@@ -1,5 +1,5 @@
 public class SumCalculator {
-    public int sum (int n){
+    public int sumResult(int n){
         if(n == 0){
             throw new IllegalArgumentException();
         }

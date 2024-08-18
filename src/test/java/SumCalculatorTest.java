@@ -16,7 +16,7 @@ class SumCalculatorTest {
     void digitCalculateWith1() {
         int input = 1;
         int expected = 1;
-        int result = sumCalculator.sum(input);
+        int result = sumCalculator.sumResult(input);
 
         assertEquals(expected, result);
     }
@@ -26,7 +26,7 @@ class SumCalculatorTest {
     void digitCalculateWith3() {
         int input = 3;
         int expected = 6;
-        int result = sumCalculator.sum(input);
+        int result = sumCalculator.sumResult(input);
 
         assertEquals(expected, result);
     }
@@ -34,6 +34,6 @@ class SumCalculatorTest {
     @Test
     void digitCalculateWith0() {
         int input = 0;
-        assertThrows(IllegalArgumentException.class, () -> sumCalculator.sum(input));
+        assertThrows(IllegalArgumentException.class, () -> sumCalculator.sumResult(input));
     }
 }

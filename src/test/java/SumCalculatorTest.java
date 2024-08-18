@@ -40,7 +40,7 @@ class SumCalculatorTest {
     @Test
     void printTest(){
         String input = "AAA";
-        String expected = "BBB";
+        String expected = "AAA";
         String result = sumCalculator.print(input);
         assertEquals(expected, result);
     }

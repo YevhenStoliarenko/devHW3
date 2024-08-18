@@ -36,4 +36,12 @@ class SumCalculatorTest {
         int input = 0;
         assertThrows(IllegalArgumentException.class, () -> sumCalculator.sumResult(input));
     }
+
+    @Test
+    void printTest(){
+        String input = "AAA";
+        String expected = "BBB";
+        String result = sumCalculator.print(input);
+        assertEquals(expected, result);
+    }
 }

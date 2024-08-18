@@ -10,7 +10,7 @@ public class SumCalculator {
         return result;
     }
 
-    public void print(String input){
-        System.out.println(input);
+    public String print(String input){
+        return input;
     }
 }

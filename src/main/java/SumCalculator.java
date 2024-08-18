@@ -9,4 +9,8 @@ public class SumCalculator {
         }
         return result;
     }
+
+    public void print(String input){
+        System.out.println(input);
+    }
 }
